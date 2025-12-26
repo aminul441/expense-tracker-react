@@ -1,0 +1,97 @@
+body{
+  background: #f4f6f8;
+  font-family: Arial, sans-serif;
+}
+
+.app{
+  background: white;
+  max-width: 400px;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rfba(0, 0, 0, 0.1)
+}
+
+h1{
+  text-align: center;
+}
+
+.balance{
+  text-align: center;
+  margin: 15px 0;
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  margin-radius: 50px;
+  border: 1px solid;
+}
+
+button{
+  width: 100%;
+  padding: 10px;
+  background: black;
+  color: wheat;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+button:hover{
+  background: #4338ca;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li{
+  background: #f4f6f8;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+li.expense{
+  border-left: 5px solid red;
+}
+
+li button{
+  background: #f4f6f8;
+  width: auto;
+  padding: 5px 10px;
+}
+
+li button:hover{
+background-color: #f4f6f8;
+}
+
+.summary{
+display: flex;
+justify-content: space-between;
+margin: 20px 0;
+}
+
+.summary div{
+  width: 48%;
+  background: #f8fafc;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.summary .income-box {
+  boder-left: 5px solid green;
+}
+
+.summary .expense-box{
+  border-left: 5px solid red;
+}
